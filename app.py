@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 import pickle
 
 # load model
-model = pickle.load(open('/Users/dmallick/Desktop/dipanwita/Self_Directed_Learning/ML_core/Deployment/first-flask-app/model.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
 
 # app
 app = Flask(__name__)
